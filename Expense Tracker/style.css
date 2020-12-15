@@ -1,0 +1,90 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/16435099/thumb/1.jpg");
+}
+.headings {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(11, 126, 11);
+}
+
+form {
+    text-align: center;
+    font-weight: bold;
+}
+
+form button {
+    background-color: rgb(14, 118, 21);
+    color: floralwhite;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width: 120px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+form button:hover {
+    background-color: rgb(14, 167, 12);
+    color: black;
+    transition: 0.35s;
+    font-weight: bold;
+}
+
+#place {
+    height: 30px;
+    width: 300px;
+}
+
+#date {
+    height: 25px;
+    width: 200px;
+}
+
+#price {
+    height: 25px;
+    width: 100px;
+}
+
+input:focus {
+    background-color: rgb(213, 213, 213);
+    border-color: rgb(213, 213, 213);
+}
+
+input:hover {
+    background-color: rgb(213, 213, 213);
+    border-color: rgb(213, 213, 213);
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+table {
+    width: 70%;
+    text-align: left;
+    background-color: rgb(244, 236, 225);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#empty {
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.buttonStyle {
+    border: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
